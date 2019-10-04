@@ -1,5 +1,7 @@
 Feature: Serve coffee
-
+  
+  The feature where we describe how to get a hot brew
+  
   Scenario: Serve an espresso
     Given the coffee machine is started
     When I press the "1 cup" button
