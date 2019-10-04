@@ -7,7 +7,7 @@ Feature: Serve coffee
     
   Scenario: Serve a latte
     Given the coffee machine is started
-    and the milk tank is filled
+    And the milk tank is filled
     When I choose the "Latte" recipe
     Then a hot milky brew should be served
   
